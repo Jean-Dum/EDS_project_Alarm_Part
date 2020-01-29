@@ -5,6 +5,10 @@ ESD project: Movement alarm detector The main idea is to build a system which ca
 
 ## Principal Equipment
 
+	- PIR Sensor 	           --> EKMC1601111 - Motion sensor 5m 94°, Panasonic
+	
+	- Electromechanical Buzzer --> RND 430-00016 - 80dB, 2.4kHz, 3V, SMD
 
+	- 
 
 
