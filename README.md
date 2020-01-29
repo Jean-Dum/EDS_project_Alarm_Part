@@ -3,8 +3,8 @@
 
 ##Movement alarm detector
 
-The main idea is to build a system which can detect the movement of a person using a PIR sensor. This movement will trigger an alarm and communicate using LoRa to another MCU managed by our associated team. The only way of desactivate the alarm is to introduce the correct code in the second teams terminal. 
-The system will also include a buzzer and a test button 
+The main idea is to build a system which can detect the movement of a person using a PIR sensor. This movement will trigger an alarm and communicate using LoRa to another MCU managed by our associated team. The only way of desactivate the alarm is to introduce the correct code in the second team's terminal. 
+The system will also include a buzzer and a test button.
 
 
 
@@ -15,6 +15,8 @@ The system will also include a buzzer and a test button
 	- Electromechanical Buzzer --> RND 430-00016 - 80dB, 2.4kHz, 3V, SMD
 
 	- Button (For alarm test)
+	
+	- LoRa module (long range low-power wide-area network technology) --> Murata CMWX1ZZABZ
  	
 
 ## Possible Extras
@@ -23,6 +25,4 @@ If everything goes on time and we do not have any big difficulties in the projec
 
 ## Limitations
 
-The fact of working two groups together makes the communication between terminals harder but we dont expect any other big problem in our terminal.
-
-
+The fact of working two groups together makes the communication between terminals harder but we don't expect any other big problem in our terminal.
