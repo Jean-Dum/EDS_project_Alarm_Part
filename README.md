@@ -26,3 +26,4 @@ If everything goes on time and we do not have any big difficulties in the projec
 The fact of working two groups together makes the communication between terminals harder but we dont expect any other big problem in our terminal.
 
 
+
