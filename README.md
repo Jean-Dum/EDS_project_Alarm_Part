@@ -25,11 +25,8 @@ If everything goes on time and we do not have any big difficulties in the projec
 
 ## Limitations
 
-<<<<<<< HEAD
 The fact of working two groups together makes the communication between terminals harder but we dont expect any other big problem in our terminal.
 
 
 
-=======
-The fact of working two groups together makes the communication between terminals harder but we don't expect any other big problem in our terminal.
->>>>>>> bb71c8a349ea33ba2ec88bb4ff7d2b069d6d1265
+
