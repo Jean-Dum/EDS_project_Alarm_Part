@@ -31,7 +31,10 @@ We also thought of adding a fingerprint sensor for desactivating the alarm in th
 
 The fact of working two groups together makes the communication between terminals harder but we dont expect any other big problem in our terminal.
 
-## DATASHEETS
+## Other Components
+
+	- ADC --> MCP3002  https://www.elfa.se/en/converter-ic-10-bit-soic-microchip-mcp3002-sn/p/30055987?q=&pos=3&origPos=3&origPageSize=10&track=true
+	
 
 
 
