@@ -1,0 +1,227 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5E34A8BC
+P 2650 1800
+F 0 "J?" H 2707 2267 50  0000 C CNN
+F 1 "USB_B_Micro" H 2707 2176 50  0000 C CNN
+F 2 "" H 2800 1750 50  0001 C CNN
+F 3 "~" H 2800 1750 50  0001 C CNN
+	1    2650 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5E34BAE1
+P 3700 1750
+F 0 "C1" H 3815 1796 50  0000 L CNN
+F 1 "100n" H 3815 1705 50  0000 L CNN
+F 2 "" H 3738 1600 50  0001 C CNN
+F 3 "~" H 3700 1750 50  0001 C CNN
+	1    3700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5E34C20C
+P 4600 1750
+F 0 "C3" H 4715 1796 50  0000 L CNN
+F 1 "100n" H 4715 1705 50  0000 L CNN
+F 2 "" H 4638 1600 50  0001 C CNN
+F 3 "~" H 4600 1750 50  0001 C CNN
+	1    4600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 5E34CEEB
+P 4150 1750
+F 0 "C2" H 4268 1796 50  0000 L CNN
+F 1 "10u" H 4268 1705 50  0000 L CNN
+F 2 "" H 4188 1600 50  0001 C CNN
+F 3 "~" H 4150 1750 50  0001 C CNN
+	1    4150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LT1117-3.3 U?
+U 1 1 5E34DA24
+P 5500 1600
+F 0 "U?" H 5500 1842 50  0000 C CNN
+F 1 "LT1117-3.3" H 5500 1751 50  0000 C CNN
+F 2 "" H 5500 1600 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1117fd.pdf" H 5500 1600 50  0001 C CNN
+	1    5500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5E34E198
+P 6850 1750
+F 0 "C5" H 6965 1796 50  0000 L CNN
+F 1 "100n" H 6965 1705 50  0000 L CNN
+F 2 "" H 6888 1600 50  0001 C CNN
+F 3 "~" H 6850 1750 50  0001 C CNN
+	1    6850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C4
+U 1 1 5E34E50D
+P 6350 1750
+F 0 "C4" H 6468 1796 50  0000 L CNN
+F 1 "10u" H 6468 1705 50  0000 L CNN
+F 2 "" H 6388 1600 50  0001 C CNN
+F 3 "~" H 6350 1750 50  0001 C CNN
+	1    6350 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1600 3100 1600
+Connection ~ 3700 1600
+Wire Wire Line
+	3700 1600 4150 1600
+Connection ~ 4150 1600
+Wire Wire Line
+	4150 1600 4600 1600
+Connection ~ 4600 1600
+Wire Wire Line
+	4600 1600 5200 1600
+Wire Wire Line
+	5800 1600 6350 1600
+Connection ~ 6350 1600
+Wire Wire Line
+	6350 1600 6850 1600
+Connection ~ 6850 1600
+Wire Wire Line
+	6850 1600 7450 1600
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E34F728
+P 7450 1600
+F 0 "#PWR?" H 7450 1450 50  0001 C CNN
+F 1 "+3.3V" H 7465 1773 50  0000 C CNN
+F 2 "" H 7450 1600 50  0001 C CNN
+F 3 "" H 7450 1600 50  0001 C CNN
+	1    7450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E34FFCD
+P 3100 1600
+F 0 "#PWR?" H 3100 1450 50  0001 C CNN
+F 1 "+5V" H 3115 1773 50  0000 C CNN
+F 2 "" H 3100 1600 50  0001 C CNN
+F 3 "" H 3100 1600 50  0001 C CNN
+	1    3100 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 1600
+Wire Wire Line
+	3100 1600 3700 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5E350761
+P 3700 1900
+F 0 "#PWR?" H 3700 1650 50  0001 C CNN
+F 1 "GND" H 3705 1727 50  0000 C CNN
+F 2 "" H 3700 1900 50  0001 C CNN
+F 3 "" H 3700 1900 50  0001 C CNN
+	1    3700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E350CE2
+P 4150 1900
+F 0 "#PWR?" H 4150 1650 50  0001 C CNN
+F 1 "GND" H 4155 1727 50  0000 C CNN
+F 2 "" H 4150 1900 50  0001 C CNN
+F 3 "" H 4150 1900 50  0001 C CNN
+	1    4150 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E3510F6
+P 4600 1900
+F 0 "#PWR?" H 4600 1650 50  0001 C CNN
+F 1 "GND" H 4605 1727 50  0000 C CNN
+F 2 "" H 4600 1900 50  0001 C CNN
+F 3 "" H 4600 1900 50  0001 C CNN
+	1    4600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E351418
+P 5500 1900
+F 0 "#PWR?" H 5500 1650 50  0001 C CNN
+F 1 "GND" H 5505 1727 50  0000 C CNN
+F 2 "" H 5500 1900 50  0001 C CNN
+F 3 "" H 5500 1900 50  0001 C CNN
+	1    5500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E3518A3
+P 6350 1900
+F 0 "#PWR?" H 6350 1650 50  0001 C CNN
+F 1 "GND" H 6355 1727 50  0000 C CNN
+F 2 "" H 6350 1900 50  0001 C CNN
+F 3 "" H 6350 1900 50  0001 C CNN
+	1    6350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E351DB6
+P 6850 1900
+F 0 "#PWR?" H 6850 1650 50  0001 C CNN
+F 1 "GND" H 6855 1727 50  0000 C CNN
+F 2 "" H 6850 1900 50  0001 C CNN
+F 3 "" H 6850 1900 50  0001 C CNN
+	1    6850 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2200 2550 2300
+Wire Wire Line
+	2550 2300 2600 2300
+Wire Wire Line
+	2650 2300 2650 2200
+$Comp
+L power:GND #PWR?
+U 1 1 5E352415
+P 2600 2300
+F 0 "#PWR?" H 2600 2050 50  0001 C CNN
+F 1 "GND" H 2605 2127 50  0000 C CNN
+F 2 "" H 2600 2300 50  0001 C CNN
+F 3 "" H 2600 2300 50  0001 C CNN
+	1    2600 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 2600 2300
+Wire Wire Line
+	2600 2300 2650 2300
+NoConn ~ 2950 1800
+NoConn ~ 2950 1900
+NoConn ~ 2950 2000
+NoConn ~ 4600 1750
+$EndSCHEMATC
