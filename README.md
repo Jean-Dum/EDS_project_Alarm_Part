@@ -16,7 +16,10 @@ The system will also include a buzzer and a test button.
 
 	- Button (For alarm test)
 	
-	- LoRa module (long range low-power wide-area network technology) --> Murata CMWX1ZZABZ
+	- LoRa module (long range low-power wide-area network technology) --> Murata 
+CMWX1ZZABZ
+
+	- Smoke Sensor --> HS-131 https://www.elfa.se/en/gas-sensor-sencera-co-ltd-hs-131/p/17302706?q=smoke+detector&pos=10&origPos=23&origPageSize=100&track=true
  	
 
 ## Possible Extras
