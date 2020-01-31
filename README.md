@@ -23,9 +23,14 @@ The system will also include a buzzer and a test button.
 
 If everything goes on time and we do not have any big difficulties in the project, we plan to add also some kind of smoke detector so the alarm system is more complete. 
 
+We also thought of adding a fingerprint sensor for desactivating the alarm in the detector terminal.
+
 ## Limitations
 
 The fact of working two groups together makes the communication between terminals harder but we dont expect any other big problem in our terminal.
+
+## DATASHEETS
+
 
 
 
