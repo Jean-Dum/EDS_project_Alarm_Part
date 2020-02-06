@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name EDS_ALARM-rescue)(type Legacy)(uri ${KIPRJMOD}/EDS_ALARM-rescue.lib)(options "")(descr ""))
+)
