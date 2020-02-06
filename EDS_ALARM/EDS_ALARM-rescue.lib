@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# EKMC1601111-EKMC1601111
+#
+DEF EKMC1601111-EKMC1601111 U 0 30 Y Y 1 F N
+F0 "U" 650 300 50 H V L CNN
+F1 "EKMC1601111-EKMC1601111" 650 200 50 H V L CNN
+F2 "VZ-STANDARD" 650 100 50 H I L CNN
+F3 "http://www3.panasonic.biz/ac/e/search_num/index.jsp?c=detail&part_no=EKMC1601111" 650 0 50 H I L CNN
+F4 "Board Mount Motion & Position Sensors Digital 170uA 5m White" 650 -100 50 H I L CNN "Description"
+F5 "Panasonic" 650 -300 50 H I L CNN "Manufacturer_Name"
+F6 "EKMC1601111" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "769-EKMC1601111" 650 -500 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=769-EKMC1601111" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F9 "1357095" 650 -700 50 H I L CNN "RS Part Number"
+F10 "http://uk.rs-online.com/web/p/products/1357095" 650 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 800 -100 200 L 50 50 0 0 U
+X 2 2 0 0 200 R 50 50 0 0 U
+X 3 3 800 0 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+#End Library
