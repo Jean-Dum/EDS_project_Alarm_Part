@@ -12,7 +12,7 @@ The system will also include a buzzer and a test button.
 
 	- PIR Sensor 	           --> EKMC1601111 - Motion sensor 5m 94°, Panasonic
 	
-	- Electromechanical Buzzer --> RND 430-00016 - 80dB, 2.4kHz, 3V, SMD
+	- Electromechanical Buzzer --> kmtg1603 
 
 	- Button (For alarm test)
 	

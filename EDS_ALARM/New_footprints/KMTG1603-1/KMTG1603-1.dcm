@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP KMTG1603-1
+D SMT piezo transducer 3Vac 81dB Kingstate Maximum of 25 V ac 81dB SMD Square Wave External Piezo Buzzer Transducer, 1000  4000 Hz
+K
+F http://farnell.com//datasheets/1653424.pdf
+$ENDCMP
+#
+#End Doc Library
