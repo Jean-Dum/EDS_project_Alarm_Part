@@ -1,6 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP EKMC1601111-EKMC1601111
+$CMP EKMC1601111
+D Board Mount Motion & Position Sensors Digital 170uA 5m White
+K
 F http://www3.panasonic.biz/ac/e/search_num/index.jsp?c=detail&part_no=EKMC1601111
 $ENDCMP
 #

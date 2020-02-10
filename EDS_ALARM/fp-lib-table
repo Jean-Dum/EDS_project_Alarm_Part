@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name EKMC1601111)(type KiCad)(uri ${KIPRJMOD}/New_footprints/EKMC1601111.pretty)(options "")(descr ""))
+)

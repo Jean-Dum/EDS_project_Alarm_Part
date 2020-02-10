@@ -1,5 +1,5 @@
 
-(module MOLEX_73412-0110 (layer F.Cu) (tedit 5E3C025D)
+(module MOLEX_73412-0110 (layer F.Cu) (tedit 5E4149DE)
   (descr "")
   (fp_text reference REF** (at -0.7273875 -2.8101405 0) (layer F.SilkS)
     (effects (font (size 0.480914173228 0.480914173228) (thickness 0.015)))

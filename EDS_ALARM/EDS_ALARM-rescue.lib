@@ -1,25 +1,46 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 73412-0110-U.FL
+#
+DEF 73412-0110-U.FL J 0 40 Y Y 1 L N
+F0 "J" 100 -125 50 H V L BNN
+F1 "73412-0110-U.FL" 100 -225 50 H V L BNN
+F2 "MOLEX_73412-0110" 0 0 50 H I L BNN
+F3 "Molex" 0 0 50 H I L BNN
+DRAW
+C 0 0 50 0 0 0 N
+C 0 0 100 0 0 10 N
+P 2 0 0 10 -100 -350 100 -350 N
+P 2 0 0 10 -50 -375 50 -375 N
+P 2 0 0 10 -25 -400 25 -400 N
+P 2 0 0 10 0 0 0 -350 N
+X SIG 1 200 0 200 L 40 40 0 0 P
+X GND 2 0 -550 200 U 40 40 0 0 P
+X GND 3 0 -550 200 U 40 40 0 0 P
+X GND 4 0 -550 200 U 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
 # EKMC1601111-EKMC1601111
 #
 DEF EKMC1601111-EKMC1601111 U 0 30 Y Y 1 F N
-F0 "U" 650 300 50 H V L CNN
-F1 "EKMC1601111-EKMC1601111" 650 200 50 H V L CNN
-F2 "VZ-STANDARD" 650 100 50 H I L CNN
-F3 "http://www3.panasonic.biz/ac/e/search_num/index.jsp?c=detail&part_no=EKMC1601111" 650 0 50 H I L CNN
-F4 "Board Mount Motion & Position Sensors Digital 170uA 5m White" 650 -100 50 H I L CNN "Description"
-F5 "Panasonic" 650 -300 50 H I L CNN "Manufacturer_Name"
-F6 "EKMC1601111" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
-F7 "769-EKMC1601111" 650 -500 50 H I L CNN "Mouser Part Number"
-F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=769-EKMC1601111" 650 -600 50 H I L CNN "Mouser Price/Stock"
-F9 "1357095" 650 -700 50 H I L CNN "RS Part Number"
-F10 "http://uk.rs-online.com/web/p/products/1357095" 650 -800 50 H I L CNN "RS Price/Stock"
+F0 "U" -50 450 50 H V L CNN
+F1 "EKMC1601111-EKMC1601111" -50 350 50 H V L CNN
+F2 "VZ-STANDARD" -50 250 50 H I L CNN
+F3 "http://www3.panasonic.biz/ac/e/search_num/index.jsp?c=detail&part_no=EKMC1601111" -50 150 50 H I L CNN
+F4 "Board Mount Motion & Position Sensors Digital 170uA 5m White" -50 -850 50 H I L CNN "Description"
+F5 "Panasonic" -50 -250 50 H I L CNN "Manufacturer_Name"
+F6 "EKMC1601111" -50 -350 50 H I L CNN "Manufacturer_Part_Number"
+F7 "769-EKMC1601111" -50 -450 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=769-EKMC1601111" -50 -550 50 H I L CNN "Mouser Price/Stock"
+F9 "1357095" -50 -650 50 H I L CNN "RS Part Number"
+F10 "http://uk.rs-online.com/web/p/products/1357095" -50 -750 50 H I L CNN "RS Price/Stock"
 DRAW
 P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
-X 1 1 800 -100 200 L 50 50 0 0 U
-X 2 2 0 0 200 R 50 50 0 0 U
-X 3 3 800 0 200 L 50 50 0 0 U
+X VCC 1 700 -100 100 L 50 50 1 1 I
+X OUT 2 100 -50 100 R 50 50 1 1 O
+X GND 3 700 0 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
