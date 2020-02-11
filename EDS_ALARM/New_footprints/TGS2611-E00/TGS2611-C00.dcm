@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TGS2611-C00
+D Figaro TGS2611-C00 Methane Gas Sensor
+K
+F http://www.figarosensor.com/products/docs/TGS%202611C00%281013%29.pdf
+$ENDCMP
+#
+#End Doc Library

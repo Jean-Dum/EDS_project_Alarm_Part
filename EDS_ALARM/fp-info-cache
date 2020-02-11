@@ -1,4 +1,4 @@
-16926871303396710
+16931615578589611
 23BR1KLFTR
 23B_1
 23B_1
@@ -50280,6 +50280,13 @@ solder jumper open
 0
 5
 3
+KMTG1603-1
+KMTG16031
+KMTG1603-1
+Loudspeaker or Buzzer
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -70069,6 +70076,20 @@ Logo WEEE
 0
 0
 0
+TGS2611-C00
+TGS2611C00
+TGS2611-C00-2
+Integrated Circuit
+0
+4
+4
+TGS2611-E00
+TGS2611C00
+TGS2611-C00-2
+Integrated Circuit
+0
+4
+4
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
