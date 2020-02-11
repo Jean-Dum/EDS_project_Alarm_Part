@@ -619,10 +619,10 @@ Wire Wire Line
 Text Label 6200 3200 2    50   ~ 0
 ADC2
 $Comp
-L Device:Buzzer BZ1
+L Device:Buzzer kmtg1603
 U 1 1 5E450C21
 P 6400 3800
-F 0 "BZ1" H 6552 3829 50  0000 L CNN
+F 0 "kmtg1603" H 6552 3829 50  0000 L CNN
 F 1 "Buzzer" H 6552 3738 50  0000 L CNN
 F 2 "" V 6375 3900 50  0001 C CNN
 F 3 "~" V 6375 3900 50  0001 C CNN
@@ -722,7 +722,7 @@ U 1 1 5E4A3655
 P 6200 3150
 F 0 "U1" H 6600 3415 50  0000 C CNN
 F 1 "EKMC1601111" H 6600 3324 50  0000 C CNN
-F 2 "" H 6850 3250 50  0001 L CNN
+F 2 "EKMC1601111:VZ-STANDARD" H 6850 3250 50  0001 L CNN
 F 3 "http://www3.panasonic.biz/ac/e/search_num/index.jsp?c=detail&part_no=EKMC1601111" H 6850 3150 50  0001 L CNN
 F 4 "Board Mount Motion & Position Sensors Digital 170uA 5m White" H 6850 3050 50  0001 L CNN "Description"
 F 5 "" H 6850 2950 50  0001 L CNN "Height"
