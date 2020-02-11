@@ -3,4 +3,6 @@
   (lib (name EKMC1601111)(type Legacy)(uri ${KIPRJMOD}/New_footprints/EKMC1601111/EKMC1601111.lib)(options 1)(descr EKMC1601111))
   (lib (name KMTG1603-1)(type Legacy)(uri ${KIPRJMOD}/New_footprints/KMTG1603-1/KMTG1603-1.lib)(options 1)(descr KMTG1603-1))
   (lib (name HS-131)(type Legacy)(uri ${KIPRJMOD}/New_footprints/HS-131/HS-131.lib)(options 1)(descr HS-131))
+  (lib (name EDS_ALARM-rescue)(type Legacy)(uri ${KIPRJMOD}/EDS_ALARM-rescue.lib)(options "")(descr ""))
+  (lib (name 23BR1KLFTR)(type Legacy)(uri ${KIPRJMOD}/New_footprints/23BR1KLFTR/23BR1KLFTR.lib)(options "")(descr "Variable resistor"))
 )

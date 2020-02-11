@@ -10,16 +10,18 @@ The system will also include a buzzer and a test button.
 
 ## Principal Equipment
 
-	- PIR Sensor 	           --> EKMC1601111 - Motion sensor 5m 94°, Panasonic
+	- PIR Sensor               --> EKMC1601111 - Motion sensor 5m 94°, Panasonic
 	
 	- Electromechanical Buzzer --> kmtg1603 
 
-	- Button (For alarm test)
+	- Button (For alarm test)  --> https://www.elfa.se/en/tactile-switch-pts-1no-160gf-6mm-pts645sm43smtr92lfs/p/30119498?origPos=40&q=smd%20button&pos=5&origPageSize=10&track=true
+
+	- Variable resistor (for smoke sensor) --> https://www.elfa.se/en/trimmer-potentiometer-kohm-250-mw-bi-technologies-23br1klftr/p/16432066?q=*&pos=3&origPos=255&origPageSize=10&track=true&fbclid=IwAR1p6efSrgXudRJqt7ZX97Rhud_PuTN6X5KsHpLk5Swx5VFpF2Jh6Jaqm8U
 	
 	- LoRa module (long range low-power wide-area network technology) --> Murata CMWX1ZZABZ
 
 	- Smoke Sensor --> HS-131 https://www.elfa.se/en/gas-sensor-sencera-co-ltd-hs-131/p/17302706?q=smoke+detector&pos=10&origPos=23&origPageSize=100&track=true
- 	
+	
 
 ## Possible Extras
 
@@ -30,13 +32,4 @@ We also thought of adding a fingerprint sensor for desactivating the alarm in th
 ## Limitations
 
 The fact of working two groups together makes the communication between terminals harder but we dont expect any other big problem in our terminal.
-
-## Other Components
-
-	- ADC --> MCP3002  https://www.elfa.se/en/converter-ic-10-bit-soic-microchip-mcp3002-sn/p/30055987?q=&pos=3&origPos=3&origPageSize=10&track=true
-	
-
-
-
-
 

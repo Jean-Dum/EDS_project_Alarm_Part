@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name EKMC1601111)(type KiCad)(uri ${KIPRJMOD}/New_footprints/EKMC1601111.pretty)(options "")(descr ""))
+  (lib (name 23BR1KLFTR)(type Legacy)(uri ${KIPRJMOD}/New_footprints/23BR1KLFTR/23BR1KLFTR.mod)(options "")(descr ""))
 )
