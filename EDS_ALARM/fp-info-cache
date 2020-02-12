@@ -1,4 +1,4 @@
-16931615578589611
+16939680809235381
 23BR1KLFTR
 23B_1
 23B_1
@@ -50280,13 +50280,6 @@ solder jumper open
 0
 5
 3
-KMTG1603-1
-KMTG16031
-KMTG1603-1
-Loudspeaker or Buzzer
-0
-2
-2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -53507,6 +53500,13 @@ Maxim_WLP-12
 0
 12
 12
+Package_BGA
+Microchip_TFBGA-196_11x11mm_Layout14x14_P0.75mm_SMD
+TFBGA-196, 11.0x11.0mm, 196 Ball, 14x14 Layout, 0.75mm Pitch, http://ww1.microchip.com/downloads/en/DeviceDoc/SAMA5D2-Series-Data-Sheet-DS60001476C.pdf#page=2956
+BGA 196 0.75
+0
+196
+196
 Package_BGA
 TFBGA-64_5x5mm_Layout8x8_P0.5mm
 TFBGA-64, 8x8 raster, 5x5mm package, pitch 0.5mm; see section 6.3 of http://www.st.com/resource/en/datasheet/stm32f100v8.pdf
@@ -68704,6 +68704,13 @@ SHT1x
 0
 8
 8
+Sensor
+TGS2611-E00-PAK
+
+
+0
+4
+4
 Sensor_Audio
 Infineon_PG-LLGA-5-1
 Infineon_PG-LLGA-5-1 StepUp generated footprint, https://www.infineon.com/cms/en/product/packages/PG-LLGA/PG-LLGA-5-1/
@@ -70076,20 +70083,6 @@ Logo WEEE
 0
 0
 0
-TGS2611-C00
-TGS2611C00
-TGS2611-C00-2
-Integrated Circuit
-0
-4
-4
-TGS2611-E00
-TGS2611C00
-TGS2611-C00-2
-Integrated Circuit
-0
-4
-4
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -75288,6 +75281,20 @@ Varistor
 RV_Disc_D21.5mm_W11.4mm_P10mm
 Varistor, diameter 21.5mm, width 11.4mm, pitch 10mm
 varistor SIOV
+0
+2
+2
+buzzer
+KMTG16031
+KMTG1603-1
+Loudspeaker or Buzzer
+0
+2
+2
+footprint
+KMTG16031
+KMTG1603-1
+Loudspeaker or Buzzer
 0
 2
 2
