@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/alfredomartinezhernandez/Documents/GitHub/PROJECTS/EDS_project_Alarm_Part/EDS_ALARM/EDS_ALARM.sch)
-    (date "2020 February 12, Wednesday 16:25:29")
+    (date "2020 February 12, Wednesday 19:23:38")
     (tool "Eeschema (5.1.5-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -66,7 +66,7 @@
       (tstamp 5E34E50D))
     (comp (ref U2)
       (value CMWX1ZZABZ-078)
-      (footprint RF_Module:CMWX1ZZABZ)
+      (footprint RF_Module:CMWX1ZZABZ_NEW)
       (datasheet https://wireless.murata.com/RFM/data/type_abz.pdf)
       (libsource (lib RF_Module) (part CMWX1ZZABZ-078) (description "LoRa/SigFox Module, STM32L082 MCU, muRata CMWX1ZZABZ"))
       (sheetpath (names /) (tstamps /))

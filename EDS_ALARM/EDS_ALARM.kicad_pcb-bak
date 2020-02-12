@@ -1276,10 +1276,10 @@
     (tags "Loudspeaker or Buzzer")
     (path /5E450C21)
     (attr smd)
-    (fp_text reference kmtg1603 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference kmtg1603 (at 0 0 180) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     )
-    (fp_text value Buzzer (at 0 0 90) (layer F.SilkS) hide
+    (fp_text value Buzzer (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     )
     (fp_line (start -8 -8) (end 8 -8) (layer Dwgs.User) (width 0.2))
@@ -1424,7 +1424,7 @@
     (descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x02 2.54mm single row")
     (path /5E486E97)
-    (fp_text reference J4 (at 0 -2.77 90) (layer F.SilkS)
+    (fp_text reference J4 (at -0.381 5.207 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x02_Male (at 0 5.31 90) (layer F.Fab)
