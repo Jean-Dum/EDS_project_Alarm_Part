@@ -1,0 +1,16 @@
+Se ha creado el archivo de trazado "/Users/alfredomartinezhernandez/Documents/GitHub/PROJECTS/EDS_project_Alarm_Part/EDS_ALARM/EDS_ALARM-F_Cu.gbr".
+Se ha creado el archivo de trazado "/Users/alfredomartinezhernandez/Documents/GitHub/PROJECTS/EDS_project_Alarm_Part/EDS_ALARM/EDS_ALARM-B_Cu.gbr".
+Se ha creado el archivo de trazado "/Users/alfredomartinezhernandez/Documents/GitHub/PROJECTS/EDS_project_Alarm_Part/EDS_ALARM/EDS_ALARM-F_Adhes.gbr".
+Se ha creado el archivo de trazado "/Users/alfredomartinezhernandez/Documents/GitHub/PROJECTS/EDS_project_Alarm_Part/EDS_ALARM/EDS_ALARM-B_Adhes.gbr".
+Se ha creado el archivo de trazado "/Users/alfredomartinezhernandez/Documents/GitHub/PROJECTS/EDS_project_Alarm_Part/EDS_ALARM/EDS_ALARM-F_Paste.gbr".
+Se ha creado el archivo de trazado "/Users/alfredomartinezhernandez/Documents/GitHub/PROJECTS/EDS_project_Alarm_Part/EDS_ALARM/EDS_ALARM-B_Paste.gbr".
+Se ha creado el archivo de trazado "/Users/alfredomartinezhernandez/Documents/GitHub/PROJECTS/EDS_project_Alarm_Part/EDS_ALARM/EDS_ALARM-F_SilkS.gbr".
+Se ha creado el archivo de trazado "/Users/alfredomartinezhernandez/Documents/GitHub/PROJECTS/EDS_project_Alarm_Part/EDS_ALARM/EDS_ALARM-B_SilkS.gbr".
+Se ha creado el archivo de trazado "/Users/alfredomartinezhernandez/Documents/GitHub/PROJECTS/EDS_project_Alarm_Part/EDS_ALARM/EDS_ALARM-F_Mask.gbr".
+Se ha creado el archivo de trazado "/Users/alfredomartinezhernandez/Documents/GitHub/PROJECTS/EDS_project_Alarm_Part/EDS_ALARM/EDS_ALARM-B_Mask.gbr".
+Se ha creado el archivo de trazado "/Users/alfredomartinezhernandez/Documents/GitHub/PROJECTS/EDS_project_Alarm_Part/EDS_ALARM/EDS_ALARM-Edge_Cuts.gbr".
+Se ha creado el archivo de trazado "/Users/alfredomartinezhernandez/Documents/GitHub/PROJECTS/EDS_project_Alarm_Part/EDS_ALARM/EDS_ALARM-Margin.gbr".
+Se ha creado el archivo de trazado "/Users/alfredomartinezhernandez/Documents/GitHub/PROJECTS/EDS_project_Alarm_Part/EDS_ALARM/EDS_ALARM-F_CrtYd.gbr".
+Se ha creado el archivo de trazado "/Users/alfredomartinezhernandez/Documents/GitHub/PROJECTS/EDS_project_Alarm_Part/EDS_ALARM/EDS_ALARM-B_CrtYd.gbr".
+Se ha creado el archivo de trazado "/Users/alfredomartinezhernandez/Documents/GitHub/PROJECTS/EDS_project_Alarm_Part/EDS_ALARM/EDS_ALARM-F_Fab.gbr".
+Se ha creado el archivo de trazado "/Users/alfredomartinezhernandez/Documents/GitHub/PROJECTS/EDS_project_Alarm_Part/EDS_ALARM/EDS_ALARM-B_Fab.gbr".
