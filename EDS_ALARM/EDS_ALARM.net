@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/alfredomartinezhernandez/Documents/GitHub/PROJECTS/EDS_project_Alarm_Part/EDS_ALARM/EDS_ALARM.sch)
-    (date "2020 February 12, Wednesday 19:23:38")
+    (date "2020 February 15, Saturday 12:45:30")
     (tool "Eeschema (5.1.5-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref J1)
       (value USB_B_Micro)
-      (footprint Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal)
+      (footprint Connector_USB:USB_Micro-B_Wuerth_629105150521)
       (datasheet ~)
       (libsource (lib Connector) (part USB_B_Micro) (description "USB Micro Type B connector"))
       (sheetpath (names /) (tstamps /))
