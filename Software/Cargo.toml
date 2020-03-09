@@ -8,6 +8,7 @@ edition = "2018"
 cortex-m-rtfm = "0.4.3"
 cortex-m = "0.5.10"
 embedded-hal = "0.2.3"
+panic-halt = "0.2"
 panic-semihosting = "0.5.3"
 cortex-m-rt = "0.6.10"
 cortex-m-semihosting = "0.3.5"
@@ -19,6 +20,8 @@ heapless = "0.5.1"
 postcard = "0.4.2"
 longfi-device = { git = "https://git.grepit.se/grepit/lora-rs.git" }
 communicator = { git = "https://git.grepit.se/grepit/communicator.git" }
+aligned                 = "0.3.2"
+ufmt                    = "0.1.0"
 
 [profile.dev]
 # The UART RX seems to be too slow on `-O0`, so messages never get through.
