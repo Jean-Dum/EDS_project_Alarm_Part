@@ -1,0 +1,1 @@
+{"rustc":14391035150081286987,"features":"[]","target":16738673710003856691,"profile":16141382631536863273,"path":2524175714612185095,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"thumbv7em-none-eabihf/debug/.fingerprint/cobs-97ae1e22edd67935/dep-lib-cobs-97ae1e22edd67935"}}],"rustflags":["-C","link-arg=-Tlink.x"],"metadata":9799029719728860760}
