@@ -1,0 +1,8 @@
+cargo:rustc-link-search=/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/build/stm32l0xx-hal-117f7885bc2b2c5f/out
+cargo:rerun-if-changed=memory_l0x1.x
+cargo:rerun-if-changed=memory_l0x2.x
+cargo:rerun-if-changed=memory_l0x3.x
+cargo:rerun-if-changed=build.rs
+cargo:rustc-link-lib=static=flash
+cargo:rustc-link-search=/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/build/stm32l0xx-hal-117f7885bc2b2c5f/out
+cargo:rerun-if-changed=flash-code/libflash.a

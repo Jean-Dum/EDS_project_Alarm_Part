@@ -1,0 +1,10 @@
+/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/deps/cortex_m_semihosting-6f9c2c268867c53e.rmeta: /home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-semihosting-0.3.5/src/lib.rs /home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-semihosting-0.3.5/src/macros.rs /home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-semihosting-0.3.5/src/debug.rs /home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-semihosting-0.3.5/src/export.rs /home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-semihosting-0.3.5/src/hio.rs /home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-semihosting-0.3.5/src/nr.rs
+
+/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/deps/cortex_m_semihosting-6f9c2c268867c53e.d: /home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-semihosting-0.3.5/src/lib.rs /home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-semihosting-0.3.5/src/macros.rs /home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-semihosting-0.3.5/src/debug.rs /home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-semihosting-0.3.5/src/export.rs /home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-semihosting-0.3.5/src/hio.rs /home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-semihosting-0.3.5/src/nr.rs
+
+/home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-semihosting-0.3.5/src/lib.rs:
+/home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-semihosting-0.3.5/src/macros.rs:
+/home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-semihosting-0.3.5/src/debug.rs:
+/home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-semihosting-0.3.5/src/export.rs:
+/home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-semihosting-0.3.5/src/hio.rs:
+/home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-semihosting-0.3.5/src/nr.rs:

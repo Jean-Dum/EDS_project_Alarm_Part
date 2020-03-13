@@ -1,0 +1,3 @@
+cargo:rustc-link-lib=static=cortex-m-semihosting
+cargo:rustc-link-search=/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/release/build/cortex-m-semihosting-cfc9efa6249f9245/out
+cargo:rustc-cfg=thumb

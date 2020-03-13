@@ -9,8 +9,12 @@ break rust_begin_unwind
 # *try* to stop at the user entry point (it might be gone due to inlining)
 break main
 
+#monitor reset
+#monitor halt
+#monitor flash protect 0 0 11 off
+
 monitor arm semihosting enable
-#monitor semihosting ioclient 3
+# monitor semihosting ioclient 3
 
 load
 

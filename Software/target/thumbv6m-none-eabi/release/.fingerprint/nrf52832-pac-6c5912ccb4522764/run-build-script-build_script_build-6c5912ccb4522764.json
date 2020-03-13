@@ -1,0 +1,1 @@
+{"rustc":14391035150081286987,"features":"","target":0,"profile":0,"path":0,"deps":[[9201008030172290542,"build_script_build",false,17202630744660140229]],"local":[{"RerunIfChanged":{"output":"thumbv6m-none-eabi/release/build/nrf52832-pac-6c5912ccb4522764/output","paths":["build.rs"]}}],"rustflags":[],"metadata":0}
