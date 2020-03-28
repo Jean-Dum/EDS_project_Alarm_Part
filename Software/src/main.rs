@@ -16,7 +16,6 @@ extern crate cortex_m;
 
 #[entry]
 fn main() -> ! {
-
     let dp = pac::Peripherals::take().unwrap();
     let cp = cortex_m::Peripherals::take().unwrap();
 
@@ -38,28 +37,96 @@ fn main() -> ! {
     
     // Configure the timer as PWM on PA0.
     let pwm = pwm::Timer::new(dp.TIM2, 1.khz(), &mut rcc);
-    let mut pwm = pwm.channel1.assign(gpioa.pa0);
+    let mut pwm = pwm.channel4.assign(gpioa.pa3);
     let max_duty = pwm.get_max_duty() / 4095;
     pwm.enable();
     
     // Configure ADC on PA2
     let mut adc = dp.ADC.constrain(&mut rcc);
-    let mut a3 = gpioa.pa3.into_analog();
+    let mut a2 = gpioa.pa2.into_analog();
 
+    // Initialize PIR reference value to 0
+    let mut PIR_ref:u16 = 0;
+
+    // Initialize the alarm activation boolean
+    let mut alarmOnOff = true;
+
+    // 5 seconds pause, indicates to the user that he must move away to avoid an immediate ringing
+    for _x in 0..10 {
+        // Blink the info LED: 250ms OFF, 250ms ON
+        delay.delay(250.ms());
+        infoLED.set_low().unwrap();
+        delay.delay(250.ms());
+        infoLED.set_high().unwrap();
+    }
+    // 5 seconds initialization time, makes the sum of 20 samples
+    for _x in 0..20 {
+        // Sum a PIR ADC sample
+        PIR_ref = PIR_ref.wrapping_add(adc.read(&mut a2).unwrap());
+        // Blink the info LED: 125ms OFF, 125ms ON
+        delay.delay(125.ms());
+        infoLED.set_low().unwrap();
+        delay.delay(125.ms());
+        infoLED.set_high().unwrap();
+    }
+
+    // Divide the result of the sum by 10, the result of the average is doubled
+    let PIR_ref: u16 = PIR_ref/10;
+    // Prints the average result
+    hprintln!("Reference value: {}", PIR_ref).unwrap();
 
     loop {
-
-        let val: u16 = adc.read(&mut a3).unwrap();
-        if button.is_high().unwrap() {
-            infoLED.set_high().unwrap();
-            hprintln!("LED high: {}", val).unwrap();
-            delay.delay(500.ms());
-        } else {
-            hprintln!("LED low: {}", val).unwrap();
-            infoLED.set_low().unwrap();
-        }
+        // Get the sensor value
+        let val: u16 = adc.read(&mut a2).unwrap();
+        hprintln!("Value: {}", val).unwrap();
         //i2c.write(MAX17048_ADDR, &mut buffer).unwrap();
 
-        pwm.set_duty(max_duty * 0);
+        // If the button is pushed
+        if button.is_high().unwrap(){
+            // Wait until the button is released
+            while button.is_high().unwrap(){ 
+                // Wait 200ms to avoid rebounce
+                delay.delay(200.ms());
+            }
+            // Invert the alarm switch
+            alarmOnOff = !alarmOnOff;
+            // If the alarm is activated
+            if alarmOnOff == true{
+                // 5 seconds pause, indicates to the user that he must move away, if not it continues
+                let mut temp: u8 = 0;
+                loop {
+                    // Blink the info LED: 250ms OFF, 250ms ON
+                    delay.delay(250.ms());
+                    infoLED.set_low().unwrap();
+                    delay.delay(250.ms());
+                    infoLED.set_high().unwrap();
+                    // Take a PIR ADC sample
+                    let val: u16 = adc.read(&mut a2).unwrap();
+                    // If 5 seconds passed and the PIR value is less than the reference, quit the loop
+                    if val < PIR_ref && temp > 10 {
+                        break();
+                    }
+                    // If 5 seconds passed and the PIR value is higher than the reference, wait 5 more seconds
+                    else if temp > 10{
+                        temp = 0;
+                    }
+                    // Incremet of 500ms
+                    temp += 1;
+                }
+            }
+            // If the alarm is desactivated
+            else {
+                // Turn OFF the info LED
+                infoLED.set_low().unwrap();
+                // Set the PWM duty cycle to 0
+                pwm.set_duty(max_duty * 0);
+            }
+        }
+        // If the alarm is activated and the PIR sensor value is higher than the reference
+        if val > PIR_ref && alarmOnOff == true{
+            // Set the PWM duty cycle to 2000
+            pwm.set_duty(max_duty * 2000);
+            hprintln!("Alarm ON").unwrap();
+        }
     }
 }
