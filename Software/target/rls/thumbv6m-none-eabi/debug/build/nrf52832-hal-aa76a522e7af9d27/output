@@ -1,0 +1,4 @@
+cargo:rustc-link-search=/home/jean/Documents/EDS_project_Alarm_Part/Software/target/rls/thumbv6m-none-eabi/debug/build/nrf52832-hal-aa76a522e7af9d27/out
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-changed=memory_xxAA.x
+cargo:rerun-if-changed=memory_xxAB.x

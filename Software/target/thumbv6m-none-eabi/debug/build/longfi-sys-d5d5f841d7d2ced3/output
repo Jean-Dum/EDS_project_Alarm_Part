@@ -1,0 +1,31 @@
+TARGET = Some("thumbv6m-none-eabi")
+OPT_LEVEL = Some("1")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_thumbv6m-none-eabi = None
+CC_thumbv6m_none_eabi = None
+TARGET_CC = None
+CC = None
+CROSS_COMPILE = None
+CFLAGS_thumbv6m-none-eabi = None
+CFLAGS_thumbv6m_none_eabi = None
+TARGET_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = None
+running: "arm-none-eabi-gcc" "-O1" "-ffunction-sections" "-fdata-sections" "-g" "-fno-omit-frame-pointer" "-mthumb" "-march=armv6s-m" "-I" "longfi-device/" "-I" "longfi-device/radio" "-std=gnu99" "-o" "/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/build/longfi-sys-d5d5f841d7d2ced3/out/longfi-device/longfi.o" "-c" "longfi-device/longfi.c"
+exit code: 0
+running: "arm-none-eabi-gcc" "-O1" "-ffunction-sections" "-fdata-sections" "-g" "-fno-omit-frame-pointer" "-mthumb" "-march=armv6s-m" "-I" "longfi-device/" "-I" "longfi-device/radio" "-std=gnu99" "-o" "/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/build/longfi-sys-d5d5f841d7d2ced3/out/longfi-device/board.o" "-c" "longfi-device/board.c"
+exit code: 0
+running: "arm-none-eabi-gcc" "-O1" "-ffunction-sections" "-fdata-sections" "-g" "-fno-omit-frame-pointer" "-mthumb" "-march=armv6s-m" "-I" "longfi-device/" "-I" "longfi-device/radio" "-std=gnu99" "-o" "/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/build/longfi-sys-d5d5f841d7d2ced3/out/longfi-device/radio/sx1276/sx1276-board.o" "-c" "longfi-device/radio/sx1276/sx1276-board.c"
+exit code: 0
+running: "arm-none-eabi-gcc" "-O1" "-ffunction-sections" "-fdata-sections" "-g" "-fno-omit-frame-pointer" "-mthumb" "-march=armv6s-m" "-I" "longfi-device/" "-I" "longfi-device/radio" "-std=gnu99" "-o" "/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/build/longfi-sys-d5d5f841d7d2ced3/out/longfi-device/radio/sx1276/sx1276.o" "-c" "longfi-device/radio/sx1276/sx1276.c"
+exit code: 0
+AR_thumbv6m-none-eabi = None
+AR_thumbv6m_none_eabi = None
+TARGET_AR = None
+AR = None
+running: "ar" "crs" "/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/build/longfi-sys-d5d5f841d7d2ced3/out/liblongfi-device.a" "/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/build/longfi-sys-d5d5f841d7d2ced3/out/longfi-device/longfi.o" "/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/build/longfi-sys-d5d5f841d7d2ced3/out/longfi-device/board.o" "/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/build/longfi-sys-d5d5f841d7d2ced3/out/longfi-device/radio/sx1276/sx1276-board.o" "/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/build/longfi-sys-d5d5f841d7d2ced3/out/longfi-device/radio/sx1276/sx1276.o"
+exit code: 0
+cargo:rustc-link-lib=static=longfi-device
+cargo:rustc-link-search=native=/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/build/longfi-sys-d5d5f841d7d2ced3/out

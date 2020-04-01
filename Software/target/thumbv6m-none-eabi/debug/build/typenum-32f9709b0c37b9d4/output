@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/build/typenum-32f9709b0c37b9d4/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/build/typenum-32f9709b0c37b9d4/out/op.rs
