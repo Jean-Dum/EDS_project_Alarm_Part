@@ -42,7 +42,7 @@ The fact of working two groups together makes the communication between terminal
 
 We design our circuit using Kicad and testing some parts of the circuit in LTspice.  
 
-![Schematic](https://github.com/Jean-Dum/EDS_project_Alarm_Part/blob/master/EDS_ALARM/Image.pdf)   
+![Schematic](https://github.com/Jean-Dum/EDS_project_Alarm_Part/blob/master/EDS_ALARM/Image.png)   
 
 
 ### Some facts about the circuit
