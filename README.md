@@ -89,6 +89,8 @@ We did some different tests on the board before and after ordering it
 
 - Programming
 	- It took us some time to manage to connect the PCB
+	- ...
+	- ...
 
 
 
