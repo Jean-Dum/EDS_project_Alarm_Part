@@ -1,15 +1,19 @@
 # EDS_project_Alarm_Project
 
+## Motion detection alarm
 
-## Movement alarm detector
 ### Desired features
+
 The main idea is to build a system which can detect the movement of a person using a PIR sensor. This movement will trigger an alarm and communicate using LoRa to another MCU managed by our associated team. The only way of desactivate the alarm is to introduce the correct code in the second team's terminal. 
-The system will also include a buzzer and a test button. 
+The system will also include a buzzer and a test button.
+
 ### Obtained features
+
 Our PCB is now able to detect the movements up to 4 meters away. It makes the buzzer ring and to stop it you just have to press the button on the PCB.
 At the programm beginning there is 10 seconds of waiting in order to wait for the user to go away (otherwise it will disrupt the sensor calibration). Then there is 10 seconds of sensor calibration, in which it makes a 40 samples average to make a reference value.
 Then the programm runs and the buzzer will ring only if the sensor value exceeds the reference value.
-If the alarm is stopped by pressing the button, to reactivate it just press again the buttton, the software will again wait 10 seconds to let the user go away to avoid the buzzer to ring immediatly.
+If the alarm is stopped by pressing the button, to reactivate it just press again the buttton, the software will again wait 10 seconds to let the user go away to avoid the buzzer to ring immediatly and then run motion detection again.
+
 ## Principal Equipment
 
 	- PIR Sensor               --> EKMC1601111 - Motion sensor 5m 94°, Panasonic
