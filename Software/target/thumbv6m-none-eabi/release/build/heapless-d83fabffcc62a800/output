@@ -1,0 +1,2 @@
+cargo:rustc-cfg=armv6m
+cargo:rustc-cfg=has_atomics

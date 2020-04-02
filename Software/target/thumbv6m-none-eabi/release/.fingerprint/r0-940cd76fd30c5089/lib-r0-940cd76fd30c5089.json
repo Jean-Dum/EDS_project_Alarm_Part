@@ -1,0 +1,1 @@
+{"rustc":15199935378135370970,"features":"[]","target":4063148312553106158,"profile":14691631496892118377,"path":17972389635527499138,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"thumbv6m-none-eabi/release/.fingerprint/r0-940cd76fd30c5089/dep-lib-r0-940cd76fd30c5089"}}],"rustflags":["-C","link-arg=-Tlink.x"],"metadata":5958893390975084982}

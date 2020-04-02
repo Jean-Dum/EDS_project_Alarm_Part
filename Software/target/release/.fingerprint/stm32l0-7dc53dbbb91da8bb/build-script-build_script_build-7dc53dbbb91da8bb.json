@@ -1,0 +1,1 @@
+{"rustc":15199935378135370970,"features":"[\"cortex-m-rt\", \"default\", \"rt\", \"stm32l0x2\"]","target":10429514197457385088,"profile":14691631496892118377,"path":6810673179485501843,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/stm32l0-7dc53dbbb91da8bb/dep-build-script-build_script_build-7dc53dbbb91da8bb"}}],"rustflags":[],"metadata":8498396876543533081}
