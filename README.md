@@ -82,13 +82,13 @@ We did some different tests on the board before and after ordering it
 ## Issues / Problems 
 
 - Circuit
- - The LT1117 pins of the footprint where wrong (they were saved as if it was LM1117) so we had to make a small fix
+	- The LT1117 pins of the footprint where wrong (they were saved as if it was LM1117) so we had to make a small fix
 
 - Layout and soldering
- - We had to apply the re-flow process twice because of a lack of flux in the first re-flow but finally applying more flux and doing the process again we managed to solder it perfect.
+	- We had to apply the re-flow process twice because of a lack of flux in the first re-flow but finally applying more flux and doing the process again we managed to solder it perfect.
 
 - Programming
- - It took us some time to manage to connect the PCB
+	- It took us some time to manage to connect the PCB
 
 
 
