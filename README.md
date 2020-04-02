@@ -90,11 +90,11 @@ We design our circuit using Kicad and testing some parts of the circuit in LTspi
 
 ### Some facts about the circuit
 	
-	- Three different leds for: testing the MCU, the power and one for the test button 
+- Three different leds for: testing the MCU, the power and one for the test button 
 	
-	- We add a different voltage regulator (LT1117) that allows us to have 3.3v always without the need of resistors for adjustment of the output, so we we reduce the space used.
+- We add a different voltage regulator (LT1117) that allows us to have 3.3v always without the need of resistors for adjustment of the output, so we we reduce the space used.
 
-	- For the Smoke detector we used a potentiometer we can use for changing the output, this is because the detector can work on different environments (humidity, temperature...) and we need to adjust the potentiometer to have an ideal output.
+- For the Smoke detector we used a potentiometer we can use for changing the output, this is because the detector can work on different environments (humidity, temperature...) and we need to adjust the potentiometer to have an ideal output.
 
 ### Layout
 
