@@ -34,7 +34,8 @@ If the alarm is stopped by pressing the button, to reactivate it just press agai
 
 Our system send a '1' by serial connection when the sensor is triggered. The alarm can be turned off by serial connection if it receive a '1' but to do so you have to uncomment lines 143 to 152 and build the code again.
 
-![Code schematic description](Software/CodeSchematic.png?raw=true "Title")
+#### Here is a diagram of our program:
+![Code schematic description](Software/CodeSchematic.png?raw=true "Code schematic description")
 
 ## Run project
 
@@ -92,9 +93,9 @@ We design our circuit using Kicad and testing some parts of the circuit in LTspi
 
 ### Some facts about the circuit
 	
-- Three different leds for: testing the MCU, the power and one for the test button 
+- Three different LEDs: one to get infos on the code execution, one for the power and one connected to the buzzer.
 	
-- We add a different voltage regulator (LT1117) that allows us to have 3.3v always without the need of resistors for adjustment of the output, so we we reduce the space used.
+- We add a different voltage regulator (LT1117) that allows us to have 3.3v always without the need of resistors for adjustment of the output, so we reduces the space used.
 
 - For the Smoke detector we used a potentiometer we can use for changing the output, this is because the detector can work on different environments (humidity, temperature...) and we need to adjust the potentiometer to have an ideal output.
 
@@ -105,7 +106,7 @@ For the layout we tried to make the PCB as small as possible so it can fit in a 
 ![Top Layout](https://github.com/Jean-Dum/EDS_project_Alarm_Part/blob/master/EDS_ALARM/front_layout.png)   
 ![Bottom Layout](https://github.com/Jean-Dum/EDS_project_Alarm_Part/blob/master/EDS_ALARM/bottom_layout.png)   
 
-All the components are in the same layer (top) but the PIR, this way we have more space and a better 'view' for the motion sensor. The connectors are all placed on the sides of the board so it is easier to use them. We tried to put the buzzer as far as possible from the MCU just incase the vibrations of the buzzer can make any damage on the small soldering pads of the MCU in a large period of time, the decoupling capacitors and sensors are placed as close as possible from the MCU.
+All the components are on the same layer (top) but the PIR, this way we have more space and a better 'view' for the motion sensor. The connectors are all placed on the sides of the board so it is easier to use them. We tried to put the buzzer as far as possible from the MCU just incase the vibrations of the buzzer can make any damage on the small soldering pads of the MCU in a large period of time, the decoupling capacitors and sensors are placed as close as possible from the MCU.
 
 ### Testing
 
