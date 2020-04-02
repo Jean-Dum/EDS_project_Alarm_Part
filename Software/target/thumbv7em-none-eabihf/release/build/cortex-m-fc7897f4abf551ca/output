@@ -1,6 +1,0 @@
-cargo:rustc-link-lib=static=cortex-m
-cargo:rustc-link-search=/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv7em-none-eabihf/release/build/cortex-m-fc7897f4abf551ca/out
-cargo:rustc-cfg=cortex_m
-cargo:rustc-cfg=armv7m
-cargo:rustc-cfg=armv7em
-cargo:rustc-cfg=has_fpu

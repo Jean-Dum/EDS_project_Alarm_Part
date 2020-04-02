@@ -1,4 +1,0 @@
-cargo:rustc-link-lib=static=cortex-m
-cargo:rustc-link-search=/home/jean/Documents/EDS_project_Alarm_Part/Software/target/rls/thumbv6m-none-eabi/debug/build/cortex-m-d73206440962cfcd/out
-cargo:rustc-cfg=cortex_m
-cargo:rustc-cfg=armv6m

@@ -1,8 +1,0 @@
-/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/deps/crc16-a81e7cc74d96de09.rmeta: /home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/crc16-0.4.0/src/lib.rs /home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/build/crc16-6d4bb19dd034fcb9/out/tables.rs
-
-/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/deps/libcrc16-a81e7cc74d96de09.rlib: /home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/crc16-0.4.0/src/lib.rs /home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/build/crc16-6d4bb19dd034fcb9/out/tables.rs
-
-/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/deps/crc16-a81e7cc74d96de09.d: /home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/crc16-0.4.0/src/lib.rs /home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/build/crc16-6d4bb19dd034fcb9/out/tables.rs
-
-/home/jean/.cargo/registry/src/github.com-1ecc6299db9ec823/crc16-0.4.0/src/lib.rs:
-/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv6m-none-eabi/debug/build/crc16-6d4bb19dd034fcb9/out/tables.rs:

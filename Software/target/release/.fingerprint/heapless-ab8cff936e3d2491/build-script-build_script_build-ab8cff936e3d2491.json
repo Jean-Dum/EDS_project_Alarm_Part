@@ -1,1 +1,0 @@
-{"rustc":14391035150081286987,"features":"[\"cas\", \"default\", \"serde\"]","target":10429514197457385088,"profile":14691631496892118377,"path":11341683116551055403,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/heapless-ab8cff936e3d2491/dep-build-script-build_script_build-ab8cff936e3d2491"}}],"rustflags":[],"metadata":3697877668466911837}

@@ -1,3 +1,0 @@
-cargo:rustc-link-search=/home/jean/Documents/EDS_project_Alarm_Part/Software/target/thumbv7em-none-eabihf/debug/build/stm32l0-ffda5e70a2c71091/out
-cargo:rerun-if-changed=src/stm32l0x2/device.x
-cargo:rerun-if-changed=build.rs

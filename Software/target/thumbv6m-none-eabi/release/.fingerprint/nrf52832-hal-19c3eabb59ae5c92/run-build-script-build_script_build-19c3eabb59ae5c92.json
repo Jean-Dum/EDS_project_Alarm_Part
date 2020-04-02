@@ -1,1 +1,0 @@
-{"rustc":15199935378135370970,"features":"","target":0,"profile":0,"path":0,"deps":[[12419848324985626805,"build_script_build",false,4801764304040877694]],"local":[{"RerunIfChanged":{"output":"thumbv6m-none-eabi/release/build/nrf52832-hal-19c3eabb59ae5c92/output","paths":["build.rs","memory_xxAA.x","memory_xxAB.x"]}}],"rustflags":[],"metadata":0}

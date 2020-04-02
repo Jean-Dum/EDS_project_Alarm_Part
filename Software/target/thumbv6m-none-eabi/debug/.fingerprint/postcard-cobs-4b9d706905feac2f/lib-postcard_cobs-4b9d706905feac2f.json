@@ -1,1 +1,0 @@
-{"rustc":14391035150081286987,"features":"[]","target":8375772112131184985,"profile":16141382631536863273,"path":390109086823328035,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"thumbv6m-none-eabi/debug/.fingerprint/postcard-cobs-4b9d706905feac2f/dep-lib-postcard_cobs-4b9d706905feac2f"}}],"rustflags":["-C","link-arg=-Tlink.x"],"metadata":16117493640457338859}
