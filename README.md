@@ -34,7 +34,7 @@ If the alarm is stopped by pressing the button, to reactivate it just press agai
 
 Our system send a '1' by serial connection when the sensor is triggered. The alarm can be turned off by serial connection if it receive a '1' but to do so you have to uncomment lines 143 to 152 and build the code again.
 
-![Image description](/Software/Code schematic.png)
+![Code schematic description](https://raw.githubusercontent.com/Jean-Dum/EDS_project_Alarm_Part/master/Software/Code%20schematic.png)
 	
 ## Run project
 
