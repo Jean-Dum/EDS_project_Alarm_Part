@@ -4,15 +4,21 @@
 
 ### Desired features
 
-The main idea is to build a system which can detect the movement of a person using a PIR sensor. This movement will trigger an alarm and communicate using LoRa to another MCU managed by our associated team. The only way of desactivate the alarm is to introduce the correct code in the second team's terminal. 
+The main idea is to build a system which can detect the movement of a person using a PIR sensor. This movement will trigger an alarm and communicate using LoRa to another MCU managed by our associated team. The only way of desactivate the alarm is to introduce the correct code in the second team's terminal.
+
 The system will also include a buzzer and a test button.
 
 ### Obtained features
 
 Our PCB is now able to detect the movements up to 4 meters away. It makes the buzzer ring and to stop it you just have to press the button on the PCB.
-At the programm beginning there is 10 seconds of waiting in order to wait for the user to go away (otherwise it will disrupt the sensor calibration). Then there is 10 seconds of sensor calibration, in which it makes a 40 samples average to make a reference value.
+
+At the programm beginning there is 10 seconds of waiting in order to wait for the user to go away (otherwise it will disrupt the sensor calibration) during which the info LED is blinking. Then there is 10 seconds of sensor calibration, in which it makes a 40 samples average to make a reference value and makes the LED blinking faster.
+
 Then the programm runs and the buzzer will ring only if the sensor value exceeds the reference value.
-If the alarm is stopped by pressing the button, to reactivate it just press again the buttton, the software will again wait 10 seconds to let the user go away to avoid the buzzer to ring immediatly and then run motion detection again.
+
+If the alarm is stopped by pressing the button, to reactivate it just press again the buttton, the software will again wait 10 seconds to let the user go away to avoid the buzzer to ring immediatly and then run motion detection again. During this time the info LED is blinking again.
+
+Our system send a '1' by serial connection when the sensor is triggered. The alarm can be turned off by serial connection if it receive a '1' but to do so you have to uncomment lines 143 to 152 and build the code again.
 
 ## Principal Equipment
 
@@ -61,7 +67,7 @@ Open a terminal
 > openocd -f openocd.cfg
 - Open a new terminal (in the same directory) and run the code:
 > cargo build --release
-- Now you are in the GDB interface, just type "c" and press two times enter key
+- Now you are in the GDB interface, just type "c" and press two times enter key. You can look the code output in the openocd terminal.
 
 ## Possible Extras
 
@@ -73,10 +79,7 @@ We also thought of adding a fingerprint sensor for desactivating the alarm in th
 
 The fact of working two groups together makes the communication between terminals harder but we dont expect any other big problem in our terminal.
 
-
-
-
-
+The main limitation was that there few informations about Rust (and especially about the stm32L0) on internet, doing our researchs to resolve our problems was really difficult.
 
 ## Design and Electronic
 
@@ -112,12 +115,6 @@ We did some different tests on the board before and after ordering it
 - For voltage reverse to make sure all the pads were connected
 - We tested the MCU by connecting it at a low current
 - Test the final performance 
-
-
-
-
-
-
 
 ## Issues / Problems 
 
