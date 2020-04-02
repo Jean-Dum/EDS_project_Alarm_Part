@@ -43,17 +43,56 @@ The fact of working two groups together makes the communication between terminal
 We design our circuit using Kicad and testing some parts of the circuit in LTspice.  
 
 ![Schematic](https://github.com/Jean-Dum/EDS_project_Alarm_Part/blob/master/EDS_ALARM/Image.pdf)   
-![Schematic](https://github.com/Jean-Dum/EDS_project_Alarm_Part/blob/master/EDS_ALARM/Image)
 
-In the circuit we have:
+
+### Some facts about the circuit
 	
-	- Three different leds for testing the MCU, the power and one for the test button 
+	- Three different leds for: testing the MCU, the power and one for the test button 
 	
 	- We add a different voltage regulator (LT1117) that allows us to have 3.3v always without the need of resistors for adjustment of the output, so we we reduce the space used.
 
 	- For the Smoke detector we used a potentiometer we can use for changing the output, this is because the detector can work on different environments (humidity, temperature...) and we need to adjust the potentiometer to have an ideal output.
 
 ### Layout
+
+For the layout we tried to make the PCB as small as possible so it can fit in a small case and this way the detection system will be more inconspicuous.
+
+![Top Layout](https://github.com/Jean-Dum/EDS_project_Alarm_Part/blob/master/EDS_ALARM/front_layout.png)   
+![Bottom Layout](https://github.com/Jean-Dum/EDS_project_Alarm_Part/blob/master/EDS_ALARM/bottom_layout.png)   
+
+All the components are in the same layer (top) but the PIR, this way we have more space and a better 'view' for the motion sensor. The connectors are all placed on the sides of the board so it is easier to use them. We tried to put the buzzer as far as possible from the MCU just incase the vibrations of the buzzer can make any damage on the small soldering pads of the MCU in a large period of time, the decoupling capacitors and sensors are placed as close as possible from the MCU.
+
+### Testing
+
+We did some different tests on the board before and after ordering it
+- We used LTspice to make sure everything was okey
+- Test for short-circuits and bad connections
+- Test after soldering the MCU
+ - For short-circuits between pads (here we detected a problem)
+ - For voltage reverse to make sure all the pads were connected
+- We tested the MCU by connecting it at a low current
+- Test the final performance 
+
+
+
+
+
+
+
+## Issues / Problems 
+
+- Circuit
+ - The LT1117 pins of the footprint where wrong (they were saved as if it was LM1117) so we had to make a small fix
+
+- Layout and soldering
+ - We had to apply the re-flow process twice because of a lack of flux in the first re-flow but finally applying more flux and doing the process again we managed to solder it perfect.
+
+- Programming
+ - It took us some time to manage to connect the PCB
+
+
+
+
 
 
 
