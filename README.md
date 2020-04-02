@@ -4,7 +4,7 @@
 ## Movement alarm detector
 
 The main idea is to build a system which can detect the movement of a person using a PIR sensor. This movement will trigger an alarm and communicate using LoRa to another MCU managed by our associated team. The only way of desactivate the alarm is to introduce the correct code in the second team's terminal. 
-The system will also include a buzzer and a test button.
+The system will also include a buzzer and a test button. 
 
 
 
@@ -33,3 +33,13 @@ We also thought of adding a fingerprint sensor for desactivating the alarm in th
 
 The fact of working two groups together makes the communication between terminals harder but we dont expect any other big problem in our terminal.
 
+
+
+
+
+
+## Design and Electronic
+
+We design our circuit using Kicad and testing some parts of the circuit in LTspice.  
+![Image](EDS_project_Alarm_Part/EDS_ALARM)                                                               
+                                
