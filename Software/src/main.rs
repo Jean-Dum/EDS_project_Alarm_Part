@@ -29,8 +29,7 @@ fn main() -> ! {
     // Get the delay provider.
     let mut delay = cp.SYST.delay(rcc.clocks);
 
-    // Acquire the GPIOA peripheral. This also enables the clock for GPIOA in
-    // the RCC register.
+    // Acquire the GPIOA peripheral. This also enables the clock for GPIOA in the RCC register.
     let gpioa = dp.GPIOA.split(&mut rcc);
 
     // Configure PA8 as output (info LED output)
@@ -39,7 +38,7 @@ fn main() -> ! {
     // Configure PA5 as input (SW2)
     let button = gpioa.pa5.into_push_pull_output();
     
-    // Configure the timer as PWM on PA0.
+    // Configure the timer as PWM on PA3 (connected to PA4)
     let pwm = pwm::Timer::new(dp.TIM2, 1.khz(), &mut rcc);
     let mut pwm = pwm.channel4.assign(gpioa.pa3);
     let max_duty = pwm.get_max_duty() / 4095;
