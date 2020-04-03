@@ -1,0 +1,1 @@
+{"rustc":15199935378135370970,"features":"[\"rt\", \"stm32l0x2\"]","target":10429514197457385088,"profile":16141382631536863273,"path":18334814188394801614,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"debug/.fingerprint/stm32l0xx-hal-f1ed85486f7f73d1/dep-build-script-build_script_build-f1ed85486f7f73d1"}}],"rustflags":[],"metadata":1040183055608104071}

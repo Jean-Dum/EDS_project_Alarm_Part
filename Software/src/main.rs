@@ -18,7 +18,7 @@ extern crate cortex_m;
 
 #[entry]
 fn main() -> ! {
-    hprintln!("Beginning initialization").unwrap();
+    hprintln!("\nBeginning initialization").unwrap();
 
     let dp = pac::Peripherals::take().unwrap();
     let cp = cortex_m::Peripherals::take().unwrap();
@@ -63,9 +63,9 @@ fn main() -> ! {
     // Initialize the alarm activation boolean
     let mut alarmOnOff = true;
 
-    // 10 seconds pause, indicates to the user that he must move away to avoid an immediate ringing
-    for x in 0..20 {
-        hprint!("\rWainting {}s", 9 - x/2).unwrap();
+    // 5 seconds pause, indicates to the user that he must move away to avoid an immediate ringing
+    for x in 0..10 {
+        hprint!("\rWait {}s", 4 - x/2).unwrap();
         // Blink the info LED: 250ms OFF, 250ms ON
         delay.delay(250.ms());
         infoLED.set_low().unwrap();
@@ -74,9 +74,9 @@ fn main() -> ! {
     }
     // Print new line
     hprintln!("").unwrap();
-    // 10 seconds initialization time, makes the sum of 20 samples
-    for x in 0..40 {
-        hprint!("\rCalibrating: {}s", 9 - x/4).unwrap();
+    // 5 seconds initialization time, makes the sum of 20 samples
+    for x in 0..20 {
+        hprint!("\rCalibration: {}s", 4 - x/4).unwrap();
         // Sum a PIR ADC sample
         PIR_ref = PIR_ref.wrapping_add(adc.read(&mut a2).unwrap());
         // Blink the info LED: 125ms OFF, 125ms ON
@@ -87,7 +87,7 @@ fn main() -> ! {
     }
 
     // Divide the result of the sum by 20, the result of the average is doubled
-    let PIR_ref: u16 = PIR_ref/20;
+    let PIR_ref: u16 = PIR_ref/10;
     // Prints the average result
     hprintln!("\nReference value: {}\n", PIR_ref).unwrap();
 
@@ -107,7 +107,7 @@ fn main() -> ! {
                 // 5 seconds pause, indicates to the user that he must move away, if not it continues
                 let mut temp: u8 = 0;
                 loop {
-                    hprint!("\rWainting {}s", 9 - temp/2).unwrap();
+                    hprint!("\rWait {}s", 9 - temp/2).unwrap();
                     // Incremet of 500ms
                     temp += 1;
                     // Blink the info LED: 250ms OFF, 250ms ON
@@ -117,11 +117,11 @@ fn main() -> ! {
                     infoLED.set_high().unwrap();
                     // Take a PIR ADC sample
                     let val: u16 = adc.read(&mut a2).unwrap();
-                    // If 5 seconds passed and the PIR value is less than the reference, quit the loop
-                    if val < PIR_ref && temp >= 20 {
+                    // If 10 seconds passed and the PIR value is less than the reference, quit the loop
+                    if temp >= 20 && val < PIR_ref  {
                         break();
                     }
-                    // If 5 seconds passed and the PIR value is higher than the reference, wait 5 more seconds
+                    // If 10 seconds passed and the PIR value is higher than the reference, wait 5 more seconds
                     else if temp >= 20{
                         temp = 0;
                     }
@@ -153,7 +153,7 @@ fn main() -> ! {
 
         // Get the sensor value and print it
         let val: u16 = adc.read(&mut a2).unwrap();
-        hprintln!("Ref | Val: {} | {}", PIR_ref, val).unwrap();
+        hprintln!("Val:{}", val).unwrap();
 
         // If the alarm is activated and the PIR sensor value is higher than the reference
         if val > PIR_ref && alarmOnOff == true{
